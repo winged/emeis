@@ -66,6 +66,8 @@ Most of the settings below are documented in it's [respective documentation](htt
 * `OIDC_OP_INTROSPECT_ENDPOINT`: Url of introspection endpoint (optionally needed for Client Credentials Grant)
 * `OIDC_RP_CLIENT_ID`: ID of the client (optionally needed for Client Credentials Grant)
 * `OIDC_RP_CLIENT_SECRET`: Secret of the client (optionally needed for Client Credentials Grant)
+* `EMEIS_OIDC_USER_FACTORY`: Optional, factory function (or class) that defines
+   an OIDC user object
 
 ##### Cache
 
